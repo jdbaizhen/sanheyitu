@@ -1,0 +1,31 @@
+/* client/pages/sort/sort.wxss */
+.sort-image {
+  width: 100%;
+}
+.sort-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+}
+.sort-every-container {
+  width: 40%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background: linear-gradient(rgb(170, 146, 152), rgba(0, 0, 0, 0.7));  
+  border-radius: 5px;
+  margin: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  letter-spacing: 3px;
+}
+.sort-every-container image {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  width: 35px;
+  height: 35px;
+}

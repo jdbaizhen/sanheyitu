@@ -1,0 +1,34 @@
+/* client/pages/company/company.wxss */
+.show-company {
+  width: 100%;
+  font-size: 12px;
+}
+.show-company image {
+  width: 100%;
+}
+.company-text {
+  display: block;
+  background: #fff;
+  padding: 10px;
+  line-height: 20px;
+}
+.call-us {
+  background: #fff;
+  font-size: 14px;
+}
+.shop-text {
+  position: relative;
+  padding: 10px;
+}
+.shop-text .introduce {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+.phone-me {
+  position: absolute;
+  left: 180px;
+  top: 70px;
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,15 @@
+<!--client/pages/sort/sort.wxml-->
+<view class="container">
+  <image src="http://tu.chdesign.cn/pics/kindeditor/2015/12/03/17706917862031.jpg" style="{{'height:'+windowWidth*(1080/1920)+'px'}}" class="sort-image"></image>
+  <view class="konghang"></view>
+  <view class="all-title">
+    <text>商品分类</text>
+    <image src="../../icon/title/fenlei.png"></image>
+  </view>
+  <view class="sort-container">
+    <view class="sort-every-container" wx:for="{{sortList}}" wx:key="{{item.index}}" data-index="{{item.index}}" catchtap="mytap">
+      <text>{{item.name}}</text>
+      <image src="{{item.url}}"></image>
+    </view>
+  </view>
+</view>

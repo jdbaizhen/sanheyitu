@@ -1,0 +1,37 @@
+<!--client/pages/company/company.wxml-->
+<view class="conatiner">
+  <view class="show-company">
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559041007553&di=f2fdb5cf57ebc83af6ce414f972d514c&imgtype=0&src=http%3A%2F%2Fimg105.job1001.com%2Fupload%2Falbum%2F2015-08-25%2F1440501197-X71ALCX_960_600.jpg"></image>  
+    <view class="all-title">
+      <text>公司简介</text>
+      <image src="../../icon/title/company.png"></image>
+    </view>
+    <text class="company-text">    叁合壹土陶艺工作室成立于2009年，本工作室以研发设计生产为主要业务，下设工厂生产线，花器和茶器为我处主要的产品结构类型，产品分类型生产线加工生产。以传统的陶瓷手工工艺为主要生产加工手段。我处产品在我陶区有较高的影响力。
+   我叁合壹土陶艺工作室研发团队，有非常专业的艺术造诣和从业经验，承接过很多礼品陈设器等等的设计制作，从原创到产品完整，形成了属于自己另类的艺术风格，产品在传统的基础上，加入当代艺术元素，融合传统技艺，使得我处陶艺产品的艺术性，时代性，文化性，实用性，生活性，可读性，都有了新的诠释和理解。对未来前瞻性的日用器适用性艺术化探索，是我们的宗旨。对陶艺技法的创新，陶艺语言表达的多样，国际元素和中国元素的融合等等，这是我们的追求。
+    我处有多年的陶艺设计研发的软件实力，有多年的陶艺品生产加工实践，有丰富的陶艺生产管理经验，有陶艺技术精湛的操作工手，有完备的陶艺加工设备，更有对产品质量严格的把控。
+   我叁合壹土热诚的欢迎您的垂询，您的关注是我们的动力，也是我们的希望。
+   以前我们在努力，现在我们会更努力。我们期待您的加入，期待您的参与，期待您的支持，我们时刻准备着，我们准备好了。。。。。</text>
+  </view>
+  <view class="konghang"></view>
+  <view class="call-us">
+    <view class="all-title">
+      <text>销售渠道</text>
+      <image src="../../icon/title/qudao.png"></image>
+    </view>
+    <view class="shop-text">
+      <text class="introduce" catchtap="clipTaobao">零售地址: <text style="color:blue">https://shop478301036.taobao.com/</text> </text>    
+      <text class="introduce" catchtap='clip1688'>批发地址: <text style="color:blue">https://sanheyitu.1688.com/</text></text>
+      <text class="introduce" data-phone="15061887368" catchtap='callMe'>联系方式: 15061887368</text>
+      <text class="introduce">公司地址: 中国江苏省无锡宜兴市丁蜀镇民主路72号</text>
+      <image src="../../icon/title/call.png" class="phone-me" data-phone="15061887368" catchtap='callMe'></image>
+    </view>
+  </view>
+  <view class="konghang"></view>
+  <view class="company-map">
+    <view class="all-title">
+      <text>公司地址</text>
+      <image src="../../icon/title/dizhi.png"></image>
+    </view>
+    <map id="map" longitude="119.846989" latitude="31.253918" markers="{{markers}}" scale="15" style="width: 100%; height: 300px;"></map>
+  </view> 
+</view>

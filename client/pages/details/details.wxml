@@ -1,0 +1,24 @@
+<!--client/pages/details/details.wxml-->
+<view class="container">
+  <view class="commod-details">
+    <view class="commod-details-left">
+      <image src="{{commodDetails.url}}"></image>   
+    </view>
+    <view class="commod-details-right">
+      <text>{{commodDetails.name}}</text>    
+      <text>价格: {{commodDetails.price}}￥</text>    
+      <text>描述: {{commodDetails.describe}}</text> 
+      <button type="primary" size="mini" data-kouling="{{commodDetails.kouling}}" catchtap="clipKouLing">点击复制淘口令</button>   
+    </view>
+  </view> 
+  <view class="konghang"></view>
+  <view class="all-title">
+    <text>产品大图</text>
+    <image src="../../icon/title/xiangqing.png"></image>
+  </view>
+  <view class="commod-images">
+    <block wx:for="{{commodDetails.details}}" wx:key="{{item.index}}">
+      <image src="{{item.url}}" style="{{'height:'+ windowWidth + 'px'}}"/>
+    </block>
+  </view>
+</view>

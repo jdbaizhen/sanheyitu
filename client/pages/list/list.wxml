@@ -1,0 +1,18 @@
+<!--client/pages/lists/list.wxml-->
+<view class="container">
+  <view class="all-title">
+    <text>商品列表</text>
+    <image src="../../icon/title/liebiao.png"></image>
+  </view>
+  <view wx:if="{{list.length == 0}}" class="no-data">暂无数据</view>
+  <view class="every-commod" wx:for="{{list}}" wx:key="{{item.index}}" data-details="{{item}}" catchtap="commodDetails">
+    <view class="every-commod-left">
+      <image src="{{item.url}}"></image>
+    </view>
+    <view class="every-commod-right">
+      <text class="right-name">名称: {{item.name}}</text>
+      <text class="right-price">价格: {{item.price}} ￥</text>
+      <button size='mini' type="primary" data-kouling="{{item.kouling}}" catchtap="clipKouLing">复制淘口令</button>
+    </view> 
+  </view>
+</view>

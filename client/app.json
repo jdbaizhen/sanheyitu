@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/company/company",
+    "pages/sort/sort",   
+    "pages/all/all",   
+    "pages/list/list",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "叁合壹土紫砂商行",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#333",
+    "backgroundColor": "F2F1F7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "icon/shouye1.png",
+        "selectedIconPath": "icon/shouye.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "iconPath": "icon/sort1.png",
+        "selectedIconPath": "icon/sort.png",
+        "text": "产品分类"
+      },
+      {
+        "pagePath": "pages/all/all",
+        "iconPath": "icon/all_copy1.png",
+        "selectedIconPath": "icon/all_copy.png",
+        "text": "所有商品"
+      },
+      {
+        "pagePath": "pages/company/company",
+        "iconPath": "icon/guanyuwomen1.png",
+        "selectedIconPath": "icon/guanyuwomen.png",
+        "text": "联系我们"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

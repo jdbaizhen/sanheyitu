@@ -1,0 +1,52 @@
+/* client/pages/details/details.wxss */
+.commod-details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+}
+.commod-details-left {
+  flex: 7;
+  text-align: center;
+}
+.commod-details-left image {
+  margin: 5px;
+  width: 90%;
+  vertical-align: top;
+  border: 1px solid #ccc;
+}
+.commod-details-right {
+  position: relative;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+.commod-details-right text {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  color: #fff;
+  background-color: rgba(107, 22, 22, 0.788);
+  border-radius: 3px;
+}
+.commod-details-right button {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 5px;
+}
+.commod-images {
+  width: 100%;
+}
+.commod-images image {
+  width: 100%;
+  height: 350px;
+  vertical-align: top;
+}

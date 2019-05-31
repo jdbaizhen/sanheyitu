@@ -1,0 +1,42 @@
+.swiper-container {
+  width: 100%;
+}
+.swiper-image {
+  width: 100%;
+}
+
+.recommend-container {
+  width: 100%;
+}
+.recommend-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+}
+.image-container {
+  position: relative;
+  width: 45%;
+  margin: 5px;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+}
+.image-container image {
+  width: 100%;
+  vertical-align: top;
+}
+.image-describe {
+  display: blcok;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  z-index: 999;
+}
